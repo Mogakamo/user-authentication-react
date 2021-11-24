@@ -35,12 +35,7 @@ function App() {
         <input type="submit" onClick={login} value="Login" />
 
         <p>Don't have an account? <a href="#">Register</a></p>
-        </form>
-
-
-        {logIn && 
-            <h1>Logged in as {username}</h1> 
-        }
+        </form>     
       </div>
     </div>
   );
